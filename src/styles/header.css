@@ -1,0 +1,33 @@
+.header {
+    background-color: #F6F5E0;
+    height: 10vh;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+li {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: #f9f9ec;
+}
+
+p {
+    font-size: 1.3vw;
+}
+
+.active {
+    color: #F93A3B;
+    background-color: #f9f9ec;
+}
