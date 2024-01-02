@@ -4,7 +4,7 @@ import '../styles/header.css';
 function Header() {
     return (
         <div className='header'>
-            <div>logo area</div>
+            <div className="logo">logo area</div>
             <div className='curs'>
                 <ul>
                     <li className='active'><p>Home</p></li>
