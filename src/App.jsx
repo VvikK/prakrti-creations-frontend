@@ -1,3 +1,4 @@
+import './styles/app.css';
 import Header from './components/Header.jsx';
 import Shop from './pages/Store.jsx';
 
