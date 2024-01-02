@@ -28,6 +28,9 @@ p {
 }
 
 .active {
-    color: #F93A3B;
-    background-color: #f9f9ec;
+    color: #9775fa;
+}
+
+.inactive {
+    color: #D14623;
 }
