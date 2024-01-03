@@ -1,7 +1,7 @@
 import '../styles/theme.css';
-import '../styles/store.css';
+import '../styles/shop.css';
 
-function Store() {
+function Shop() {
     return (
         <div className="store reg">
             <form className="form">
@@ -28,4 +28,4 @@ function Store() {
     );
 }
 
-export default Store;
+export default Shop;
