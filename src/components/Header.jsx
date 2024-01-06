@@ -9,7 +9,7 @@ function Header() {
                     <img src={require("../images/logo.png")} alt="logo"></img>
                 </div>
                 <div className="background">
-                    <img src={require("../images/logobackground.png")} alt="logobackground"></img>
+                    <img src={require("../images/logobackground.jpg")} alt="logobackground"></img>
                 </div>
             </div>
             <div className='bottom curs'>
