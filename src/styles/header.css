@@ -13,7 +13,7 @@
     flex-direction: row;
     list-style-type: none;
     border-radius: 10px;
-    outline: 1px solid black;
+    outline: 1px solid #d14623;
     overflow: hidden;
 }
 
@@ -23,7 +23,7 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
-    outline: 1px black solid;
+    outline: 1px #d14623 solid;
 }
 
 .header li:hover {

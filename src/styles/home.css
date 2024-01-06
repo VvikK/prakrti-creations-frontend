@@ -1,0 +1,32 @@
+.aboutText {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+  border: 1px solid #d14623;
+  font-family: 'Satisfy', 'cursive';
+  margin-bottom: 1.5rem;;
+  color: #d14623;
+}
+
+.aboutTitle{
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    border: 1px solid #d14623;
+    font-family: 'Satisfy', 'cursive';
+    margin-bottom: 2px;
+    color: #d14623;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 1px; 
+    margin-bottom: 1.5rem;
+  }
+  
+.responsive-image {
+    max-width: 100%;
+    border: 2px solid #d14623;
+    height: auto;
+  }
