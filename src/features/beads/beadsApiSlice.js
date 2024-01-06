@@ -33,7 +33,7 @@ export const beadsApiSlice = apiSlice.injectEndpoints({
         }),
 
         addNewBead: builder.mutation({
-            query: (intialBeadData) => ({
+            query: intialBeadData => ({
                 url: '/beads',
                 method: 'POST',
                 body: { ...intialBeadData }
@@ -42,7 +42,7 @@ export const beadsApiSlice = apiSlice.injectEndpoints({
         }),
 
         updateBead: builder.mutation({
-            query: ({ updatedBeadData }) => ({
+            query: updatedBeadData => ({
                 url: '/beads',
                 method: 'PATCH',
                 body: { ...updatedBeadData }
