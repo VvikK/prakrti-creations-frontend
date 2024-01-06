@@ -5,7 +5,7 @@ const beadsAdapter = createEntityAdapter();
 
 const initialState = beadsAdapter.getInitialState();
 
-export const beadsApiSlice = apiSlice({
+export const beadsApiSlice = apiSlice.injectEndpoints({
     endpoints: (builder) => ({
         getBeads: builder.query({
             query: () => '/beads',
@@ -52,7 +52,7 @@ export const beadsApiSlice = apiSlice({
 
         deleteBead: builder.mutation({
             query: ({ id }) => ({
-                url: 'beads',
+                url: '/beads',
                 method: 'DELETE',
                 body: { id }
             }),
