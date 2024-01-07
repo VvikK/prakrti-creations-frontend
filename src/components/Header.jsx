@@ -1,3 +1,6 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 import '../styles/theme.css';
 import '../styles/header.css';
 
@@ -14,10 +17,10 @@ function Header() {
             </div>
             <div className='bottom curs'>
                 <ul>
-                    <li className='active'><p>Home</p></li>
-                    <li className='inactive'><p>Gallery</p></li>
-                    <li className='inactive'><p>Shop</p></li>
-                    <li className='inactive'><p>Contact Us</p></li>
+                    <li className='active' ><Link to="/"><p>Home</p></Link></li>
+                    <li className='inactive'><Link to="/gallery"><p>Gallery</p></Link></li>
+                    <li className='inactive'><Link to="/shop"><p>Shop</p></Link></li>
+                    <li className='inactive'><Link to="/contact"><p>Contact Us</p></Link></li>
                 </ul>
             </div>
         </div>
