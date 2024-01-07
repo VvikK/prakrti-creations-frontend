@@ -71,7 +71,7 @@ export const {
 
 export const selectProductResult = productsApiSlice.endpoints.getProducts.select();
 
-export const selectProductsData = createSelector(
+const selectProductsData = createSelector(
     selectProductResult,
     productsResult => productsResult.data
 );
