@@ -70,7 +70,7 @@ export const {
 
 export const selectBeadResult = beadsApiSlice.endpoints.getBeads.select();
 
-export const selectBeadsData = createSelector(
+const selectBeadsData = createSelector(
     selectBeadResult,
     beadResult => beadResult.data
 );
@@ -79,4 +79,4 @@ export const {
     selectAll: selectAllBeads,
     selectById: selectBeadById,
     selectIds: selectBeadIds
-} = beadsAdapter.getSelectors(state => selectClassesData(state) ?? initialState);
+} = beadsAdapter.getSelectors(state => selectBeadsData(state) ?? initialState);
