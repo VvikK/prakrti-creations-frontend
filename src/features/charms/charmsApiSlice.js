@@ -72,7 +72,7 @@ export const {
 
 export const selectCharmResult = charmsApiSlice.endpoints.getCharms.select();
 
-export const selectCharmsData = createSelector(
+const selectCharmsData = createSelector(
     selectCharmResult,
     charmResult => charmResult.data
 );
