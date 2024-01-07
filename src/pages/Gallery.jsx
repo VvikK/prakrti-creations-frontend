@@ -1,3 +1,5 @@
+import React from 'react';
+
 import "../styles/theme.css";
 import "../styles/gallery.css";
 
