@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
-import { setCredentials } from '@components/features/auth/authSlice';
+import { setCredentials } from '../../features/auth/authSlice';
 
 const apiBaseUrl = (process.env.NODE_ENV === 'production' ? 'N/A' : 'http://localhost:3500/');
 
