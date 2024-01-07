@@ -1,0 +1,13 @@
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 1rem;
+  font-family: 'Satisfy', 'cursive';
+  color: #d14623;
+  border: #d14623  1px solid;
+}
