@@ -17,10 +17,10 @@ function Header() {
             </div>
             <div className='bottom curs'>
                 <ul>
-                    <li className='active' ><Link to="/"><p>Home</p></Link></li>
-                    <li className='inactive'><Link to="/gallery"><p>Gallery</p></Link></li>
-                    <li className='inactive'><Link to="/shop"><p>Shop</p></Link></li>
-                    <li className='inactive'><Link to="/contact"><p>Contact Us</p></Link></li>
+                    <Link to="/"><li className='active' ><p>Home</p></li></Link>
+                    <Link to="/gallery"><li className='inactive'><p>Gallery</p></li></Link>
+                    <Link to="/shop"><li className='inactive'><p>Shop</p></li></Link>
+                    <Link to="/contact"><li className='inactive'><p>Contact Us</p></li></Link>
                 </ul>
             </div>
         </div>
