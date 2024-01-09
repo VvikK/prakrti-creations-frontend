@@ -17,7 +17,7 @@
     overflow: hidden;
 }
 
-.header li {
+.header a {
     flex-grow: 1;
     display: flex;
     align-items: center;
@@ -26,7 +26,7 @@
     outline: 1px #d14623 solid;
 }
 
-.header li:hover {
+.header a:hover {
     cursor: pointer;
     background-color: #FFF9DB;
 }
